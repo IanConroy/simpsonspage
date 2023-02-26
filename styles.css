@@ -1,0 +1,16 @@
+.container {
+display:flex;
+}
+
+.navbar {
+
+}
+
+.one {
+background-color:1F2937;
+
+}
+
+.two {
+border-image: 100px;
+}
