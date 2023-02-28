@@ -1,9 +1,31 @@
+body {
+    background-color:#FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
 .container {
 display:flex;
+flex-direction: column;
 }
 
 .navbar {
+display:flex;
+color:#F9FAF8;
+background-color: #1F2937;
+padding: 20px;
+align-items:center;
+}
 
+.navbar a {
+    
+}
+
+.navbar img {
+width:350px;
+height:200px;
 }
 
 .one {
@@ -12,5 +34,23 @@ background-color:1F2937;
 }
 
 .two {
-border-image: 100px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.two img {
+width:200px;
+height:200px;
+object-fit:cover;
+border:4px solid #3882F6;
+border-radius:15px;
+margin: 5px 20px 0px 20px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    font-family: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
