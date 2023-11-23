@@ -44,8 +44,11 @@ color:#1F2937;
 }
 
 .two {
-  
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
     color:#1F2937;
+    gap:8px;
 }
 
 .two img {
