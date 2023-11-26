@@ -86,16 +86,27 @@ border-radius:15px;
     background-color:#3882F6;
     color:#FFFFFF;
     margin:50px;
-    border-radius:15px;
+    border-radius:10px;
     display:flex;
     justify-content:space-evenly;
-    align-items:center;
+    
 
 }
 
 .sign-up {
+    width:170px;
+    height:40px;
+    border-radius:8px;
     background-color:#3882F6;
-    margin-left:auto;
+    
+}
+
+.cta-sign-up {
+    width:170px;
+    height:40px;
+    border-radius:8px;
+    background-color:transparent;
+    border:2px solid ghostwhite;
 }
 
 .homer-footer {
