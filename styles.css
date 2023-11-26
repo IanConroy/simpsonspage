@@ -88,8 +88,7 @@ border-radius:15px;
     margin:50px;
     border-radius:10px;
     display:flex;
-    justify-content:space-evenly;
-    
+    flex-wrap:wrap;
 
 }
 
@@ -101,12 +100,17 @@ border-radius:15px;
     
 }
 
+.cta-time {
+
+}
 .cta-sign-up {
     width:170px;
     height:40px;
     border-radius:8px;
     background-color:transparent;
     border:2px solid ghostwhite;
+    display:flex;
+    align-self:baseline;
 }
 
 .homer-footer {
