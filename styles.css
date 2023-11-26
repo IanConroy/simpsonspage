@@ -34,11 +34,21 @@ body {
 .intro {
     background-color:#1F2937;
     display:flex;
-    flex-direction:column;
-    text-align:left;
+    align-items:center;
+    justify-content: space-between;
 }
 
-.intro img {
+.intro-left {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    gap:45px;
+}
+
+.intro-right {
+   
+}
+.intro-right img {
     width:350px;
     height:200px;
 }
@@ -50,11 +60,11 @@ body {
 
 .two {
     display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
+    flex-direction: row;
     color:#1F2937;
     gap:8px;
     align-items:center;
+    justify-content:space-evenly;
     
 }
 
@@ -64,11 +74,11 @@ height:200px;
 object-fit:cover;
 border:4px solid #3882F6;
 border-radius:15px;
-margin: 20px;
+
 }
 
 .two p {
-    max-width:190px;
+    
 }
 
 
