@@ -95,6 +95,11 @@ border-radius:15px;
     
 }
 
+.signup-button {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
 .cta-sign-up {
     width:170px;
@@ -102,8 +107,13 @@ border-radius:15px;
     border-radius:8px;
     background-color:transparent;
     border:2px solid ghostwhite;
-    display:flex;
-    align-self:baseline;
+    font-size:larger;
+    font-weight:bold;
+}
+
+.cta-sign-up:hover {
+    cursor: pointer;
+    background-color: aqua;
 }
 
 .homer-footer {
