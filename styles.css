@@ -83,25 +83,24 @@ border-radius:15px;
     padding:20px;
 }
 
-.cta-signup-left {
+.cta-signup {
     background-color:#3882F6;
     color:#FFFFFF;
-    gap:10px;
+    gap:300px;
     margin:50px;
     border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
 }
 
-.signup-text {
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.cta-signup-left {
+    
 }
 
 .cta-signup-right {
-    display:flex;
-    justify-content: center;
-    align-items:center;
+  
 }
 
 .signup-button {
