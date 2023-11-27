@@ -83,25 +83,28 @@ border-radius:15px;
     padding:20px;
 }
 
-.signup {
+.cta-signup-left {
     background-color:#3882F6;
     color:#FFFFFF;
     gap:10px;
     margin:50px;
     border-radius:10px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
     
 }
 
-.signup-button {
+.signup-text {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.cta-signup-right {
     display:flex;
     justify-content: center;
     align-items:center;
 }
 
-.cta-sign-up {
+.signup-button {
     width:170px;
     height:40px;
     border-radius:8px;
@@ -111,7 +114,7 @@ border-radius:15px;
     font-weight:bold;
 }
 
-.cta-sign-up:hover {
+.signup-button:hover {
     cursor: pointer;
     background-color: aqua;
 }
