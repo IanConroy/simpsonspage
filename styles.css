@@ -36,13 +36,14 @@ body {
     display:flex;
     align-items:center;
     justify-content: space-between;
+    gap:45px;
 }
 
 .intro-left {
     display:flex;
     flex-direction:column;
     flex:1;
-    gap:45px;
+    gap:16px;
 }
 
 .intro-right img {
@@ -100,9 +101,6 @@ border-radius:15px;
     
 }
 
-.cta-time {
-
-}
 .cta-sign-up {
     width:170px;
     height:40px;
