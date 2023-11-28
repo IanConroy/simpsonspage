@@ -92,15 +92,7 @@ border-radius:15px;
     display:flex;
     justify-content:center;
     align-items:center;
-    
-}
-
-.cta-signup-left {
-    
-}
-
-.cta-signup-right {
-  
+    text-align:left;
 }
 
 .signup-button {
