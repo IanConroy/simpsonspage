@@ -25,7 +25,6 @@ body {
     padding:0px 100px 0px 0px;
     }
 
-
 .header-link a {
     color:ghostwhite;
     padding:10px;
@@ -35,22 +34,26 @@ body {
     background-color:#1F2937;
     display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     text-align:left;
     gap:45px;
+    padding:50px;
+}
 
+.intro-about {
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    }
+
+.intro-subtext {
+    font-size:18px;
+    color:#E5E7EB;
 }
 
 .intro button {
     background-color:#3882F6;
     border:none;
-}
-
-.intro-left {
-    display:flex;
-    flex-direction:column;
-    flex:1;
-    gap:16px;
 }
 
 .intro-right img {
