@@ -37,7 +37,6 @@ body {
     justify-content: center;
     text-align:left;
     flex-wrap:wrap;
-    
     padding:50px;
 }
 
@@ -45,11 +44,13 @@ body {
     font-size:48px;
     font-weight:bolder;
     color:#F9FAF8;
+    max-width:300px;
     }
 
 .intro-subtext {
     font-size:18px;
     color:#E5E7EB;
+    max-width:500px;
 }
 
 .intro button {
