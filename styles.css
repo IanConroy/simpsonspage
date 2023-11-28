@@ -36,7 +36,14 @@ body {
     display:flex;
     align-items:center;
     justify-content: space-between;
+    text-align:left;
     gap:45px;
+
+}
+
+.intro button {
+    background-color:#3882F6;
+    border:none;
 }
 
 .intro-left {
